@@ -1,0 +1,94 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: gray;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(141, 135, 135, 0.3) 0%, rgba(0, 0, 0, 0) 75%, #000 100%), url("img/sorteos2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;     
+}
+
+h1 {
+    background-color: rgb(173, 163, 163);
+    text-align: center;
+}
+
+.inscrip {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    position:relative;
+    top: 10px;
+    left: 250px;
+    right: 300px;
+    /*padding: 0.375rem 0.75rem;*/
+    /*text-align: center;*/
+}
+
+
+.forms {
+    background-color:goldenrod;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-section {
+    padding-top: 1.5rem;
+    background: linear-gradient(to bottom, rgba(63, 0, 100, 0.9) 0%, rgba(195, 78, 241, 0.9) 75%, rgba(221, 133, 243, 0.5) 100%);
+  }
+  .contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d;
+  }
+  .contact-section .card h4, .contact-section .card .h4 {
+    font-size: 0.8rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+  }
+  .contact-section .card hr {
+    border-color: #8aa164;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+  .contact-section .social {
+    margin-top: 5rem;
+  }
+  .contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(158, 147, 100, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .contact-section .social a:active {
+    color: rgb(209, 35, 35);
+  }
+
+.footer {
+    padding: 5rem 0;
+    background-color: pink;
+    margin-top: 0.1rem;
+    margin: 0.1rem;
+  }

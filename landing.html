@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+
+    <!--Inicio Nav-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://nyc3.digitaloceanspaces.com/edoofiles/ima/structure_folder/1e488a17-3b89-4379-943b-ffa66539b3ff/To%20Do%20List%20Mockup.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=5JX7YKPJX6PMOICF5SD5%2F20220214%2Fnyc3%2Fs3%2Faws4_request&X-Amz-Date=20220214T235812Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=bfd8bede30376a7357e5fb9effdd4be97de1161744fd1f4a2dbdfaff146af0f7">To Do List</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="https://youtu.be/7-Ikexq03O0">Una rolita</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sorteos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!--Fin Nav-->
+
+    <h1>Landing Page</h1>
+
+    <!--Inicio Header-->
+    <header class="header">
+    <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+        <div class="d-flex justify-content-center">
+            <div class="text-center">
+                <h1 class="mx-auto my-0 text-uppercase bg-black">Participa en el sorteo</h1>
+                <!--h2 class="text-white-50 mx-auto mt-2 mb-5">Viajes por todo el mundo, tu puedes ser uno de los ganadores.</h2>-->
+                <!--<i class="fas fa-democrat fa-8x mb-2 text-white"></i>-->
+                <i class="fas fa-guitar fa-8x mb-2 text-white"></i>
+                <!--<i class="fab fa-html5 fa-8x mb-2 text-white"></i-->
+                <!--<i class="far fa-paper-plane fa-2x mb-2 text-white"></i>-->
+                <!--<a class="btn btn-primary" href="#about">Get Started</a>-->
+            </div>
+        </div>
+    </div>
+    </header>
+    <!--Fin Header-->
+
+      <!--Inicio Form-->
+          <div class="container">
+          <div class="inscrip">
+          <div class="forms" style="width: 60rem;">
+            <h1>Inscribite</h1>
+                  <div class="col-4" style="width: 50rem;">
+                        <form class="info-form">
+                            <div class="col-md-6">
+                              <label for="inputEmail4" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="inputEmail4">
+                            </div>            
+                            <div class="col-md-6">
+                              <label for="inputPassword4" class="form-label">Contraseña</label>
+                              <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                            <div class="col-12">
+                              <label for="inputAddress" class="form-label">Dirección</label>
+                              <input type="text" class="form-control" id="inputAddress" placeholder="P. Sherman, calle Wallaby, 42, Sydney">
+                            </div>
+                            <div class="col-12">
+                              <label for="inputAddress2" class="form-label">Específicaciones</label>
+                              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartmento, estudio, o piso">
+                            </div>
+                            <div class="col-md-6">
+                              <label for="inputCity" class="form-label">Ciudad</label>
+                              <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="col-md-4">
+                              <label for="inputState" class="form-label">Departamento</label>
+                                  <select id="inputState" class="form-select">
+                                      <option selected>Escoger...</option>
+                                      <option>...</option>
+                                  </select>
+                            </div>
+                            <div class="col-md-2">
+                                  <label for="inputZip" class="form-label">Código Postal</label>
+                                  <input type="text" class="form-control" id="inputZip">
+                            </div>
+                            <div class="col-12">
+                            <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                                  <label class="form-check-label" for="gridCheck">
+                                      Dar un vistazo
+                                  </label>
+                            </div>
+                            </div>
+                            <div class="col-12">
+                                  <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                                  </div>
+                        </form>                  
+                  </div>
+          </div>
+          </div>
+          </div>
+    <!--Fin Form-->
+
+<!--Inicio Más sorteos-->
+<div class="container px-4 py-5" id="custom-cards">
+  <h2 class="pb-2 border-bottom">SORTEOS</h2>
+
+  <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-white bg-black rounded-5 shadow-lg" style="background-image: url('img/iphone13.jpg');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Sorteo por un Iphone 13 por Rosmar_27. Participa y gana. Valido hasta el 14 de febrero, 2022.</h2>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="img/iphone13.jpg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+              <small>Participa ahora.</small>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('img/entradas.png');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Sorteo Entradas</h2>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="img/entradas.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+              <small>Gana para formar parte de la exclusiva fiesta de MJ.</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('img/cancun.jpeg');">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+          <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text-black-50">Un viaje a Cancún</h2>
+          <ul class="d-flex list-unstyled mt-auto">
+            <li class="me-auto">
+              <img src="img/cancun.jpeg" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+            </li>
+            <li class="d-flex align-items-center me-3">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+              <small>Tu y un acompañante, todo pagado al Hotel Buenas Palmas.</small>
+            </li>
+            <li class="d-flex align-items-center">
+              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+              </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Fin del espacio-->
+
+    <!-- Contact-->
+    <section class="contact-section" id="Contacto">
+      <section class="contact-section">
+          <section class="text-contact text-white-50"></section> 
+          <div class="container px-4 px-lg-5">
+              <div class="row gx-4 gx-lg-5">
+                  <div class="col-md-4 mb-3 mb-md-0">
+                      <div class="card py-4 h-100">
+                          <div class="card-body text-center">
+                              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                              <h4 class="text-uppercase m-0">OFICINAS</h4>
+                              <hr class="my-4 mx-auto" />
+                              <div class="small text-black-50">P. Sherman, calle Wallaby, 42, Sydney</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-3 mb-md-0">
+                      <div class="card py-4 h-100">
+                          <div class="card-body text-center">
+                              <i class="fas fa-envelope text-primary mb-2"></i>
+                              <h4 class="text-uppercase m-0">EMAIL</h4>
+                              <hr class="my-4 mx-auto" />
+                              <div class="small text-black-50"><a href="#!">martinez.rosyzuniga@gmail.com</a></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-3 mb-md-0">
+                      <div class="card py-4 h-100">
+                          <div class="card-body text-center">
+                              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                              <h4 class="text-uppercase m-0">TELÉFONO</h4>
+                              <hr class="my-4 mx-auto" />
+                              <div class="small text-black-50">+502 5639-1270</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="social d-flex justify-content-center">
+                  <a class="mx-2" href="https://twitter.com/home?lang=es!"><i class="fab fa-twitter"></i></a>
+                  <a class="mx-2" href="https://www.facebook.com/!"><i class="fab fa-facebook-f"></i></a>
+                  <a class="mx-2" href="https://github.com/RosaMZ27"><i class="fab fa-github"></i></a>
+                  <!--<a class="mx-2" href="https://www.pexels.com/es-es/"><i class="fas fa-images"></i>-->
+              </div>
+          </div>
+      </section>
+  </section>
+
+
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-black-50">
+      <div class="container px-4 px-lg-5">Copyright &copy; Your Website 2021</div>
+          Fotos from <a href="https://www.pexels.com/es-es/@rosi-martinez-98045322/collections/">Pexels</a>
+          <br>
+          <a href="https://startbootstrap.com/previews/grayscale">Plantilla</a> from <a href="https://startbootstrap.com/">start Bootstrap</a>
+    </footer>
+    
+
+</body>
+</html>
